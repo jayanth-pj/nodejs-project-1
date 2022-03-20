@@ -1,8 +1,1 @@
-const http = require("http");
-http
-    .createserver((req,res) => {
-        console.log(res);
-        res.write("<h1>Home Page!</h1>");
-        res.end();
-    })
-    .listen(8080);
+About page code goes here
